@@ -51,7 +51,18 @@ module.exports = function (grunt) {
         }]
       },
     },
-
+    bump: {
+        options: {
+            push: true,
+            pushTo: "origin",
+            files: [
+                "package.json",
+            ],
+            commitFiles: [
+                "package.json",
+            ]
+        }
+    },
     // Unit tests.
     nodeunit: {
       tests: ['test/*_test.js']
