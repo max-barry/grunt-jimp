@@ -1,0 +1,36 @@
+{
+  "name": "grunt-jimp",
+  "version": "0.0.1",
+  "description": "Grunt wrapper for JIMP, the Javascript Image Manipulation Program",
+  "repository": "git@github.com:max-barry/grunt-jimp.git",
+  "homepage": "https://github.com:max-barry/grunt-jimp",
+  "author": {
+    "name": "Max Barry",
+    "email": "max@mxbry.com",
+    "url": "https://mxbry.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "jimp": "^0.2.21",
+    "tinycolor2": "^1.3.0"
+  }
+}
