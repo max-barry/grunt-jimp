@@ -1,6 +1,6 @@
 {
   "name": "grunt-jimp",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Grunt wrapper for JIMP, the Javascript Image Manipulation Program",
   "repository": "git@github.com:max-barry/grunt-jimp.git",
   "homepage": "https://github.com:max-barry/grunt-jimp",
