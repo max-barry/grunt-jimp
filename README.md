@@ -3,7 +3,7 @@
 > Grunt wrapper for Jimp, the Javascript Image Manipulation Program
 
 Jimp is a native javascript image manipulation library, and does not require ImageMagick or GraphicsMagick.
-All credit for Jimp goes to Oliver Moran, and the original library [can be found here](https://github.com/oliver-moran/jimp).
+All credit for Jimp goes to [Oliver Moran](https://github.com/oliver-moran), and the original library [can be found here](https://github.com/oliver-moran/jimp).
 
 ## Getting Started
 This plugin requires Grunt.
