@@ -1,6 +1,6 @@
 {
   "name": "grunt-jimp",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Grunt wrapper for JIMP, the Javascript Image Manipulation Program",
   "repository": "git@github.com:max-barry/grunt-jimp.git",
   "homepage": "https://github.com:max-barry/grunt-jimp",
@@ -18,10 +18,11 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-bump": "^0.7.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-nodeunit": "~0.3.0",
-    "grunt": "~0.4.2",
     "jshint-stylish": "~0.1.5",
     "load-grunt-tasks": "~0.3.0"
   },
