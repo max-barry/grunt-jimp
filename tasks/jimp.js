@@ -33,11 +33,12 @@ module.exports = function (grunt) {
 
       async.eachSeries(file.src, function(filepath, cb){
 
-        var filenameParts = path.parse(file.dest),
+        var fullSuffix = options.suffix.length > 0 ? '.' + options.suffix : '',
+            filenameParts = path.parse(file.dest),
             // n.b. that file extension is always jpg. You need a format where the quality
             // can be reduced so as to have a small image being loaded as the placeholder
             // ipso facto PNGs will become JPEGs.
-            outName = filenameParts.name + '.' + options.suffix + filenameParts.ext,
+            outName = filenameParts.name + fullSuffix + filenameParts.ext,
             outPath = path.join(filenameParts.dir, outName);
 
         if (!grunt.file.exists(filenameParts.dir)) {
